@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thien tan's Portfolio, showcasing projects and contact details">
+    <link rel="icon" href="img/Immortal_3_Rank.webp">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script type="module" defer src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js"></script>
+    <spline-viewer class="dot-light-cursor" url="https://prod.spline.design/XUuPynbMrquwQa2s/scene.splinecode"></spline-viewer>
+
+    
+
+</head>
+<body>
+
+    <div id="holographic-bg"></div>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <a href="#Home"><span> Thien Tan</span></a>
+            </div>
+            <div class="toggle-container">
+                <img id="theme-toggle-icon" src="img/moon.png" alt="Dark Mode" onclick="toggleTheme()" />
+            </div>
+            
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <a href="#Home">Home</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <a href="#About_Me">About Me</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <a href="#services">My services</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <a href="#Projects">Projects</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <a href="#team">My Team</a>
+                </div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <a href="#Contacts">Contacts</a>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Home">Home</a>
+                <a href="#About_Me">About Me</a>
+                <a href="#services">My services</a>
+                <a href="#Projects">Projects</a>
+                <a href="#team">My team</a>
+                <a href="#Contacts">Contacts</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="Home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Hey, I'm <span>Thien Tan</span>
+                </h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">
+                    I'm a <span class="typewriter-text"></span><label for="">|</label>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100" class="homeinfo">
+                    Content creator, Designer , Website developer
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/ThienTan127" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/thien.tan.51528/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@_tdtry.127" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.instagram.com/t.tan1207/#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="profile-container">
+        <div class="profile-border"></div>
+        <div class="tech-icons">
+            <i class="tech-icon" style="top: 0; left: 50%; transform: translateX(-50%);">💻</i>
+            <i class="tech-icon" style="top: 50%; right: 0; transform: translateY(-50%);">💘</i>
+            <i class="tech-icon" style="bottom: 0; left: 50%; transform: translateX(-50%);">📸</i>
+            <i class="tech-icon" style="top: 50%; left: 0; transform: translateY(-50%) ;">💵</i>
+        </div>
+        <img src="img/tan2.png" alt="my image"
+        class="profile-picture">
+    </div>
+            
+            
+        </div>
+    </section>
+
+  <!-- About Me Section -->
+<section id="About_Me">
+    <div class="about-content" data-aos="fade-left" data-aos-duration="1500">
+        
+        <!-- About Me Image -->
+        <div class="about-image" data-aos="zoom-in">
+            <img src="img/2332.png" alt="About Me" />
+        </div>
+        
+        <!-- About Me Text -->
+        <div class="about-text">
+            <h2 class="about-title">About Me</h2>
+            <p>
+               <p>
+  I’m a web developer and designer with over two years of experience creating and redesigning websites for better functionality and visual appeal. I specialize in front-end development using HTML, CSS, JavaScript, and React, and have built a range of projects including e-commerce platforms, budget trackers, and restaurant reservation systems.
+</p>
+
+<p>
+  I also have experience with Node.js, Express, Figma, Wix, XML, and XSLT. I focus on delivering responsive, user-friendly websites and can assist with content updates, feature improvements, and complete redesigns tailored to client needs.
+</p>
+
+            </p>
+        </div>
+        
+    </div>
+</section>
+
+<section class="services" id="services">
+<h2 class="heading1">My Services</h2>
+<div class="services-container">
+    <div class="services-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>UI-UX Design</h3>
+        <p>My first experience is this website</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+        <i class="fa-brands fa-tiktok"></i>
+        <h3>Tiktok</h3>
+        <p>Content Creator Valorant</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+        <i class="fa-solid fa-people-roof"></i>
+        <h3>Supervisor</h3>
+        <p>2 years experience in human resource management</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</div>
+<div class="skills">
+    <h2>My Skills</h2>
+        <div class="skill-item">
+            <div class="skill-name">
+                <span>Html and css</span>
+                <span>75%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-name">
+                <span>Photoshop</span>
+                <span>80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-name">
+                <span>Ilustrator</span>
+                <span>70%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-name">
+                <span>Indesign</span>
+                <span>85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+   
+<section id="Projects" class="projects">
+        <h2 class="projects-heading" data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+        <p>Click on image to view</p>
+        
+        
+        <div class="category-container">
+            <div class="project-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/project-4.png" alt="Coding Project 1" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p>A web project portfolio animation. See it live <a href="https://thientan127.github.io/websiteportfolio/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/project-3.png" alt="Coding Project 2" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p>A nother portfolio, I will complete it later. Try it <a href="https://thientan127.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/project-2.png" alt="Coding Project 3" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p>This is the portfolio website I made at school during my studies.. click <a href="https://thientan127.github.io/portfolio2/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="team" class="team">      
+        <div class="category-container">
+            <h3 class="category-title" data-aos="fade-up" data-aos-duration="1500">My Team</h3>
+            <p>Click on image to view</p>
+            <div class="project-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/tan2.png" alt="Design Edit 1" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p style="color: cyan;">Nguyen Thien Tan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bambi.jpg" alt="Design Edit 2" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p style="color: pink;">Truong Dinh Khanh Ngoc</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/duytan.png" alt="Design Edit 3" class="card-image" />
+                        </div>
+                        <div class="card-back">
+                            <p style="color: red;">Nguyen Duy Tan</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
+
+    
+<section id="Contacts">
+    <h2 class="contact" data-aos="fade-up" data-aos-duration="1500">Contacts</h2>
+    <p data-aos="fade-right" data-aos-duration="1500">
+        You can contact me <a href="mailto:thientan12797@gmail.com"><i class="fas fa-envelope"></i> thientan12797@gmail.com</a>.
+        Or connect with me on social media!
+    </p>
+
+    <!-- Social Media Icons -->
+    <div class="social-media-icons" style="text-align: center;">
+        <a href="https://github.com/chubbyrics" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/ricamae.rapatanii" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <div class="contact-container">
+        <form id="contactForm" onsubmit="return validateForm()" data-aos="fade-up" data-aos-duration="1500">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" onclick="sendMail()">Submit</button>
+        </form>
+        <!-- Notification Modal -->
+        <div id="notification" class="notification">
+            <div class="notification-content">
+                <p id="notification-message"></p>
+                <button id="notification-close" class="close-btn">Close</button>
+            </div>
+        </div>  
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Thien tan. All rights reserved. Copy = dog</p>
+</footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "l0Qt07WbL4x2NMrQU",
+      });
+   })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+</body>
+</html>
